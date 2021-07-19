@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 function Navbar() {
   const [name, setName] = useState("Code Blog");
 
-
+  
 
   return (
     <nav className="navbar">
@@ -14,6 +14,7 @@ function Navbar() {
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/AddBlogs">Add Blogs</Link>
+        
       </div>
     </nav>
   );
